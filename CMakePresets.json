@@ -57,7 +57,7 @@
       "displayName": "stm32g431",
       "description": "Build for stm32g431",
       "inherits": "stm32",
-      "toolchainFile": "${sourceDir}/build/${presetName}/_deps/emil-src/cmake/toolchain-arm-gcc-m4-fpv4-sp-d16.cmake",
+      "toolchainFile": "${sourceDir}/amp-embedded-infra-lib/cmake/toolchain-arm-gcc-m4-fpv4-sp-d16.cmake",
       "cacheVariables": {
         "TARGET_CORTEX": "m4",
         "TARGET_MCU_FAMILY": "stm32g4xx",
@@ -102,7 +102,7 @@
       "name": "stm32g431-RelWithDebInfo",
       "configuration": "RelWithDebInfo",
       "configurePreset": "stm32g431"
-    },
+    }
   ],
   "testPresets": [
     {
